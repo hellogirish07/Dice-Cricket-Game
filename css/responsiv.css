@@ -1,0 +1,50 @@
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    button,
+    input {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    #turn {
+        font-size: 1.2rem;
+    }
+
+    #scoreBoard {
+        font-size: 1.5rem;
+    }
+
+    #batsmanDice,
+    #bowlerDice {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    button,
+    input {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    #turn {
+        font-size: 1rem;
+    }
+
+    #scoreBoard {
+        font-size: 1.2rem;
+    }
+
+    #batsmanDice,
+    #bowlerDice {
+        font-size: 2.5rem;
+    }
+}

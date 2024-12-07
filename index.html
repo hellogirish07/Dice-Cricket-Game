@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Made with Love By @hellogirish07 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/logo-1.webp">
+    <title>Dice Cricket Game</title>
+    <link rel="stylesheet" href="/css/style.css" class="css">
+    <link rel="stylesheet" href="/css/splash.css" class="css">
+    <link rel="stylesheet" href="/css/responsiv.css" class="css">
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splashScreen" class="splash-screen ">
+        <div class="logo-container">
+            <img src="/img/logo-1.webp" alt="Dice Cricket Logo" class="logo">
+            <h1 class="game-title">Dice Cricket</h1>
+            <p class="tagline">Roll, Hit, and Be the Champion!!</p>
+            <button id="playButton" class="play-btn">Play</button>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="container form hidden">
+        <div class="heading-box">
+            <img src="/img/logo-1.webp" alt="">
+            <h1>Dice Cricket Game</h1>
+        </div>
+        <input id="batsman" type="text" placeholder="Enter Batsman Name">
+        <input id="bowler" type="text" placeholder="Enter Bowler Name">
+        <input id="overs" type="number" placeholder="Enter Number of Overs (1-5)">
+        <button id="startGame">Start Game</button>
+        <div class="rules-link">
+            <a href="rules.html">How to Play and Rules</a>
+        </div>
+    </div>
+
+    <!-- Game -->
+    <div class="container game hidden">
+        <div class="heading-box">
+            <img src="/img/logo-1.webp" alt="">
+            <h1>Dice Cricket Game</h1>
+        </div>
+        <div id="turn"></div>
+        <div>
+            <span id="batsmanDice">🎲</span>
+            <span id="bowlerDice">🎲</span>
+        </div>
+        <div id="scoreBoard"></div>
+        <button id="rollDice">Roll Dice</button>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/splash.js"></script>
+</body>
+
+</html>
